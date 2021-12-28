@@ -477,7 +477,7 @@ class Enbek:
         file_name_input.set_focus()
         sleep(0.5)
         file_name_input.set_edit_text(
-            r"C:\Users\robot.drp\Desktop\Rasul\HCSBKKZ_robot\Tools\ecp\GOSTKNCA_42e6bd1a0979ff3747e9a35207bbcfbc4afee6f5.p12")
+            r"C:\Users\robot.drp\Desktop\Rasul\HCSBKKZ_robot\Tools\ecp\{ecp}")
         sleep(0.5)
 
         open_button = bySelector([{"title": "Электронная биржа труда | ID ДОГОВОРА (E-HR): - Google Chrome", "backend": "uia"},
